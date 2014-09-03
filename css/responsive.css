@@ -200,13 +200,13 @@
 @media screen and (min-width:680px) {
 	.ourPartners li {
 	text-align: center;
-	margin: auto auto 4% 5%;
 	display: inline-block;
+	margin-left: 2%;
 
 	}
 	.ourPartners img {
 		width: 70%;
-		margin-left: 15%;
+		margin-left: 10%;
 	}
 
 }
