@@ -1,0 +1,215 @@
+@media screen and (max-width:480px){
+
+
+	.section1 >img {
+	display:none ;	
+	}
+
+	header {
+		background: url(../img/jobseeker_home.png) no-repeat;
+		width: 10%;
+		top: 0%;
+	}
+
+	.postJobFooter  {
+	width: 100%;
+	margin-top: 4%;
+	background-color: rgba(0,0,0,.5); 
+	color: #fff; 
+	text-align: center;
+	}
+
+	.postJobBody ul {
+	color: #fff;
+	margin-top: 10%;
+	margin-left: 10%;
+	}
+
+
+	.postJobHeader {
+	width: 100%;
+	height: 26px;
+	background-color: rgba(255,255,255,.7);
+	display: block;
+	}
+
+	.postJobHeader ul li{
+	display: inline-block;
+	float: right;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	}
+	.postJobHeader ul li a{
+	display: inline-block;
+	float: right;
+	}
+
+	.ourPartners li {
+	display:block;
+	margin: auto auto; 
+	/*margin-left: 25%;*/
+	}
+	.ourPartners img {
+	width: 100%;
+	height: 30%;
+	}
+
+	.how {
+	margin-top: 15px;
+	font-size: 20px;
+	font-family: sans-serif;
+	width: 100% !important;
+	text-align: center;
+	color: #A6A6A6;
+	margin-right: 10%;
+	}
+	.section2 .arrow img {
+	display: none;
+	}
+
+	.section2 li {
+	display:block;
+	margin: auto auto; 
+	margin-left: 30%;
+	width: 45%;
+	}
+	.section2 li p {
+	font-size: 18px;
+	}
+	.lookingForJob ul {
+	height: 25.5%;
+	}
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+	.section1 img {
+		overflow: hidden;
+		width: 13%;
+		margin-left: 2%;
+	}
+
+	.postJobBody {
+		margin-left: 6%;
+
+	}
+	.postJobHeader  ul{
+		width: 100%;
+		float: right;
+		padding: .5% .5% .75% .5%;
+		background-color: rgba(255,255,255,.7);
+		display: inline-block;
+	}
+
+
+
+	.postJobHeader li {
+		float: right;
+		margin-right: 1.2%;
+	}
+
+	.postJobHeader li a {
+		color: #000;
+		text-decoration: none;
+	}
+
+
+
+	.postJobHeader li a:hover {
+		text-decoration: underline;
+	}
+
+	.postJobFooter  {
+	width: 100%;
+	height: 80px;
+	margin-top: 4%;
+	background-color: rgba(0,0,0,.5);
+	color: #fff; 
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-family: sans-serif;
+	}
+
+	.postJobFooter p{
+		margin-top: 10px;
+
+	}
+	.postJobBtn  ul{
+		margin-left: 12px;
+	}
+
+	.section2 li {
+	text-align: center;
+	width:10.857%;
+	}
+	.section2 ul {
+	margin-left: 20%;
+	}
+	.section2 p {
+	text-align: center;
+	font-size: 18px;
+	}
+	.lookingForJob {
+	height: 270px;
+	}
+	.ourPartners li {
+	text-align: center;
+	margin: auto auto 4% 5%;
+	display: inline-block;
+
+	}
+
+	.ourPartners img {
+		width: 100%;
+		/*margin-left: 2%;*/
+	}
+
+	.how {
+		margin-top: 4%;
+		margin-bottom: 2%;
+		font-size: 24px;
+	}
+	.how ul li{
+		margin-bottom: 3%;
+	}
+
+	.lookingForJob a {
+
+	padding: 8px 22px 8px 22px;
+	background-color: green;
+	color: #fff;
+	margin-top: 13%;
+	text-decoration: none;
+	}
+
+	.lookingForJob ul {
+ 	position: absolute;
+	width: 100%;
+	height: 39%;
+	}
+}
+
+@media screen and (min-width:680px) {
+	.ourPartners li {
+	text-align: center;
+	margin: auto auto 4% 5%;
+	display: inline-block;
+
+	}
+	.ourPartners img {
+		width: 70%;
+		margin-left: 15%;
+	}
+
+}
+
+
+
